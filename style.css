@@ -48,13 +48,15 @@ body {
 }
 .wrapper .container .right .login .logo img {
   width: 36px;
+  position: relative;
+  top: -20px;
 }
 
 .wrapper .container .right .login .field p:nth-child(1) {
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 500;
   color: #525252;
-  letter-spacing: 0em;
+  letter-spacing: 0.01em;
   text-align: left;
 }
 .wrapper .container .right .login .field p:nth-child(2) {
@@ -72,6 +74,8 @@ body {
   border-radius: 4px;
   width: 100%;
   border: 1px solid #52525257;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 .wrapper .container .right .login .field .or {
   color: #a1a1a1;
@@ -80,9 +84,19 @@ body {
   line-height: 16px;
   letter-spacing: 0.01em;
   text-align: center;
+  margin-bottom: 7px;
 }
 .wrapper .container .right .login .field .or span {
   color: #dddddd;
+}
+.wrapper .container .right .login .field .input {
+  margin-bottom: 7px;
+}
+.wrapper .container .right .login .field .input label {
+  font-size: 10px;
+}
+.wrapper .container .right .login .field .input input::placeholder {
+  font-size: 10px;
 }
 .wrapper .container .right .login .field .input input {
   padding: 6px;
@@ -121,6 +135,7 @@ body {
   border: none;
   border-radius: 4px;
   color: #fff;
+  margin-top: 15px;
 }
 .remember {
   display: flex;
@@ -166,6 +181,8 @@ body {
 .create {
   display: flex;
   justify-content: center;
+  position: relative;
+  top: 60px;
 }
 .create_cont {
   width: 72%;
