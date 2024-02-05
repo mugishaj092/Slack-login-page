@@ -209,7 +209,7 @@ body {
 
 @media screen and (max-width: 767px) {
   .container {
-    height: 100vh;
+    height: 80vh;
   }
   .right {
     margin-left: -20px;
@@ -222,6 +222,9 @@ body {
   .wrapper .container .image img {
     display: none;
     width: 0vw;
+  }
+  .wrapper .container .right .login .logo {
+    margin: 0px;
   }
 }
 @media screen and (max-width: 380px) {
