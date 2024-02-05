@@ -209,7 +209,6 @@ body {
 
 @media screen and (max-width: 767px) {
   .container {
-    overflow-y: hidden;
   }
   .right {
     margin-left: -10px;
