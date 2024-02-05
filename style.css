@@ -210,6 +210,8 @@ body {
 @media screen and (max-width: 767px) {
   .container {
     height: 80vh;
+    overflow: hidden;
+    width: 100vw;
   }
   .right {
     margin-left: -20px;
