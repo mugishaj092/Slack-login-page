@@ -212,7 +212,7 @@ body {
     height: 100vh;
   }
   .right {
-    margin-left: -10px;
+    margin-left: -20px;
   }
 
   .wrapper .container .image {
@@ -222,5 +222,11 @@ body {
   .wrapper .container .image img {
     display: none;
     width: 0vw;
+  }
+}
+@media screen and (max-width: 360px) {
+  .right {
+    margin-left: -10px;
+    width: 60vw;
   }
 }
