@@ -224,7 +224,7 @@ body {
     width: 0vw;
   }
 }
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 380px) {
   .right {
     margin-left: -10px;
     width: 60vw;
