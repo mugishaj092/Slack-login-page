@@ -204,3 +204,20 @@ body {
   letter-spacing: 0em;
   color: #7f265b;
 }
+
+/*Responsiveness*/
+
+@media screen and (max-width: 767px) {
+  .container {
+  }
+  .right {
+  }
+  .wrapper .container .image {
+    background-color: #7f265b;
+    width: 0vw;
+  }
+  .wrapper .container .image img {
+    display: none;
+    width: 0vw;
+  }
+}
