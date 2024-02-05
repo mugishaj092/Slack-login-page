@@ -209,9 +209,9 @@ body {
 
 @media screen and (max-width: 767px) {
   .container {
+    overflow-y: hidden;
   }
   .right {
-    background-color: #828282;
     margin-left: -10px;
   }
 
