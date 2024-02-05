@@ -211,7 +211,10 @@ body {
   .container {
   }
   .right {
+    background-color: #828282;
+    margin-left: -10px;
   }
+
   .wrapper .container .image {
     background-color: #7f265b;
     width: 0vw;
